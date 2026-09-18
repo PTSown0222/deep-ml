@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**1** solved · 0 problems · 1 labs · 0 math
+**2** solved · 0 problems · 1 labs · 1 math
 
 ![Coverage](./coverage.svg)
 
@@ -13,6 +13,12 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | | Difficulty | Solved | |
 | --- | --- | --- | --- |
 | [Train a Linear Regression Model](https://www.deep-ml.com/labs/18) | easy | 2026-09-18 | [solution](labs/0018-train-a-linear-regression-model) |
+
+## Math
+
+| | Difficulty | Solved | |
+| --- | --- | --- | --- |
+| [ML Workflow Basics](https://www.deep-ml.com/math-problems/30) | easy | 2026-09-18 | [solution](math/0030-ml-workflow-basics) |
 
 ---
 
