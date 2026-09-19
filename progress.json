@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T05:12:52.227Z",
+  "generated_at": "2026-09-19T05:27:59.363Z",
   "items": {
     "lab:18": {
       "kind": "lab",
@@ -137,6 +137,19 @@
       "path": "math/0005-gradient-descent-updates",
       "first_solved_at": "2026-09-19T05:12:51.508Z",
       "last_pushed_at": "2026-09-19T05:12:51.508Z"
+    },
+    "problem:24": {
+      "kind": "problem",
+      "id": "24",
+      "title": "Single Neuron",
+      "difficulty": "easy",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/24",
+      "path": "problems/0024-single-neuron",
+      "first_solved_at": "2026-09-19T05:27:57.554Z",
+      "last_pushed_at": "2026-09-19T05:27:57.554Z",
+      "language": "python",
+      "lines": 11
     }
   }
 }
