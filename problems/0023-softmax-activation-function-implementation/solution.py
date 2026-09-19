@@ -6,4 +6,4 @@ def softmax(scores: list[float]) -> list[float]:
     top = np.exp(scores - max_z)
     bot = np.sum(np.exp(scores-max_z), keepdims = True)
     result = top/bot
-    return result
+    return result.tolist()
