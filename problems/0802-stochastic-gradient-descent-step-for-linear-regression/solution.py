@@ -9,6 +9,7 @@ def sgd_update(X: np.ndarray, y: np.ndarray, weights: np.ndarray, learning_rate:
     """
     n_samples = X.shape[0]
     for i in range(n_iter):
+        # batch size
         idx = i % n_samples
         xi = X[idx]
         yi = y[idx]
