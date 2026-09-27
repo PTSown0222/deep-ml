@@ -1,0 +1,19 @@
+import numpy as np
+
+def mini_batch_gd_step(X: np.ndarray, y: np.ndarray, weights: np.ndarray, bias: float, batch_indices: list, lr: float) -> np.ndarray:
+    """
+    Perform one mini-batch gradient descent update step for linear regression with MSE loss.
+    Returns a 1D array of length D+1: updated weights followed by updated bias.
+    """
+    X_b = X[batch_indices]
+    y_b = y[batch_indices]
+    m = len(batch_indices)
+
+    e = np.dot(X_b, weights) + bias - y_b
+    dw = (2/m) * np.dot(X_b.T, e)
+    db = (2/m) * np.sum(e)
+
+    updated_weights = weights - lr * dw
+    updated_bias = bias - lr * db
+    
+    return np.concatenate([updated_weights, [updated_bias]])
