@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**38** solved · 30 problems · 2 labs · 6 math
+**39** solved · 31 problems · 2 labs · 6 math
 
 ![Coverage](./coverage.svg)
 
@@ -16,6 +16,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Build Vocabulary from Token List](https://www.deep-ml.com/problems/941) | easy | 2026-09-20 | [solution](problems/0941-build-vocabulary-from-token-list) |
 | [Calculate Mean by Row or Column](https://www.deep-ml.com/problems/4) | easy | 2026-09-19 | [solution](problems/0004-calculate-mean-by-row-or-column) |
 | [Calculate Perplexity for Language Models](https://www.deep-ml.com/problems/320) | easy | 2026-09-19 | [solution](problems/0320-calculate-perplexity-for-language-models) |
+| [Calculate R-squared for Regression Analysis](https://www.deep-ml.com/problems/69) | easy | 2026-09-29 | [solution](problems/0069-calculate-r-squared-for-regression-analysis) |
 | [Calculate Unigram Probability from Corpus](https://www.deep-ml.com/problems/129) | easy | 2026-09-19 | [solution](problems/0129-calculate-unigram-probability-from-corpus) |
 | [Compute Multi-class Cross-Entropy Loss](https://www.deep-ml.com/problems/134) | easy | 2026-09-27 | [solution](problems/0134-compute-multi-class-cross-entropy-loss) |
 | [Exact Match Score with Normalization](https://www.deep-ml.com/problems/325) | easy | 2026-09-20 | [solution](problems/0325-exact-match-score-with-normalization) |
